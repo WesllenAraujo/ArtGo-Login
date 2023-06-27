@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Limelight&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-image: linear-gradient(68.15deg,#33013b 16.62%, #87029c 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  border-bottom: #f2e3db solid 1px;
+}
+
+.cabecalho-img {
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+  cursor: pointer;
+}
+
+nav a::after {
+  content: " ";
+  width: 0%;
+  height: 4px;
+  background-color: #e292ee;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+  border-radius: 3px;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+ 
+.cabecalho-menu-item {
+  font-family: 'Kameron', serif;
+  color: #f2e3db;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 0px 28px;
+  color: #f2e3db;
+}
+
+.form-box {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(68, 2, 84, 0.2);
+}
+
+.content {
+  border: 3px solid #da65ec;
+  padding: 5px;
+}
+
+.form-title {
+  border: 1px solid #da65ec;
+  padding: 10px;
+  text-align: center;
+  background-color: #da65ec;
+  border-radius: 8px;
+  color: #f2e3db;
+}
+
+.inputbox {
+  position: relative;
+  margin-right: 200px;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+  padding: 5px 50px 20px 0px;
+}
+
+.formimg {
+  width: 100px;
+  height: 100px;
+}
+
+.inputuser {
+  background: none;
+  border: none;
+  border-bottom: solid 1px #e292ee;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelinput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.inputuser:focus ~ .labelinput, .inputuser:valid ~ .labelinput {
+  top: -20px;
+  font-size: 12px;
+  color: #87029c;
+}
+
+#birthdate {
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  background: #e6b5ee;
+}
+
+.local select {
+  padding: 7px;
+  font-size: 15px;
+  background: #e6b5ee;
+  border-radius: 10px;
+}
+
+.loginbutton {
+  background: linear-gradient(68.15deg,#760288 16.62%, #b804d4 85.61%);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: #f2e3db;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.loginanchor {
+  color: #f2e3db;
+  padding: 10px 0px 10px;
+}
+
+.loginanchor a {
+  color: #f2e3db;
+  text-decoration: underline;
+}
+
+.submit:hover {
+  background: linear-gradient(68.15deg,#5d026b 16.62%, #9904af 85.61%);
+}
+
+.owertitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #f2e3db;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: linear-gradient(40deg, #36034a, #b804d4);
+  border-radius: 30px;
+  margin: 0px 600px 50px;
+}
+
+.owerarts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.chainsawmanart {
+  width: 300px;
+  height: 300px;
+}
+
+.gutsart {
+  width: 300px;
+  height: 300px;
+}
+
+.luffyart {
+  width: 300px;
+  height: 300px;
+}
+
+.stevenart {
+  width: 300px;
+  height: 300px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #f2e3db;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape-titulo {
+  color: #f2e3db;
+}

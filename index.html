@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtGo</title>
+  <meta name="description" content="Um site destinado para artistas e apreciadores de artes">
+  <link rel="stylesheet" type="text/css" href="./src/style/style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-img" src="./src/img/logo.png" alt="logoimg">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item">Início</a>
+      <a class="cabecalho-menu-item">Sobre nós</a>
+      <a class="cabecalho-menu-item">Serviços</a>
+      <a class="cabecalho-menu-item">Contato</a>
+    </nav>
+  </header>
+  <div class="box">
+    <form action="" class="form-box">
+        <fieldset class="content">
+            <legend class="form-title"><strong>Faça seu login</strong></legend>
+            <br>
+          <div class="row">
+              <img class="formimg" src="./src/img/art.png" alt="">
+          </div>  
+             <div class="inputbox">
+                <input type="text" name="login" id="login" class="inputuser" required>
+                <label for="login" class="labelinput">Nome de usuário</label>
+             </div>              
+              <br><br>
+            <div class="inputbox">
+                <input type="password" name="password" id="password" class="inputuser" required>
+                <label for="password" class="labelinput">Senha</label>
+            </div>
+              <br>
+            <button class="loginbutton">Entrar</button>
+            <div class="loginanchor">
+              <p>Não tem login? Faça o <a href="">cadastro</a>.</p>
+            </div>
+        </fieldset> 
+    </form>
+    <br><br>
+</div>
+<br><br>
+  <div class="owerartproject">
+   <div class="owertitle">
+     <h4>Artes do criador</h4>
+   </div>
+     <div class="owerarts">
+       <img src="./src/img/chainsawman.jpg" alt="owerart1" class="chainsawmanart">
+       <img src="./src/img/guts.jpg" alt="owerart2" class="gutsart">
+       <img src="./src/img/luffy.jpg" alt="owerart3" class="luffyart">       
+       <img src="./src/img/steven.jpg" alt="owerart4" class="stevenart">       
+     </div> 
+  </div>
+  <footer class="rodape">
+       <h2 class="rodape-titulo">ArtGo</h2>
+  </footer> 
+</body>
+</html>
